@@ -172,28 +172,44 @@ ul {
 //////// FOOTER
 
 footer {
+	background: #fff;
+	margin-top: 30px;
 	.prefooter {
-		border-color: #cccccc;
-		border-top: 1px solid;
-		border-bottom: 1px solid;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #cccccc;
+		margin-bottom: 45px;
+		.row {
+			align-items: center;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		h5 {
+			text-align: left;
+			margin: 0;
+			margin-top: 3px;
+		}
 	}
 	.main-logo {
 		width: auto;
 	}
 }
 
-//////// CONTENTS
+//////// ICONS
+.opening-icon {
+	width: 54px;
+	height: 54px;
+	margin: 0 auto 30px;
+	display: table;
+}
 
 #opening {
 	height: 100vh;
-	background: url(../images/hero-background-morning.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
 
 #content {
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0), $primary);
 	& > .container > .row {
 		background: #fff;
 		border-radius: 15px;

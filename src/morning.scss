@@ -1,8 +1,14 @@
 // Variables
 $primary: #8b7e7c;
 
+.opening-icon {
+	svg {
+		fill: $primary;
+	}
+}
+
 #opening {
-	background: url(../images/hero-background-morning.jpg);
+	background-image: url(../images/hero-background-morning.jpg);
 }
 
 #content {
