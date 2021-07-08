@@ -1,0 +1,19 @@
+/*** COLORS ***/
+
+$background: #fbfcfd;
+$primary: #8b7e7c;
+$secondary: BLUE;
+$font: #eee;
+
+/*** OTHERS ***/
+
+$shadows: fade-out(#5e78ba, 0.85);
+
+@mixin circle-bg($color) {
+	background: url(../images/bg-circles-dark.png) $color;
+	background-position: center bottom;
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+$blue-gradient: linear-gradient(125deg, #234899, #171b57);

@@ -127,8 +127,8 @@ var __webpack_exports__ = {};
 !function() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _custom_scripts_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _custom_scripts_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_custom_scripts_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _parts_custom_scripts_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _parts_custom_scripts_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_parts_custom_scripts_js__WEBPACK_IMPORTED_MODULE_0__);
 
 
 }();

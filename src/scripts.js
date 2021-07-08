@@ -1,1 +1,1 @@
-import './custom-scripts.js';
+import './js/custom-scripts.js';
