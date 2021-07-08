@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-Light.eot');
+    src: url('Nexa-Light.eot?#iefix') format('embedded-opentype'),
+        url('Nexa-Light.woff2') format('woff2'),
+        url('Nexa-Light.woff') format('woff'),
+        url('Nexa-Light.ttf') format('truetype'),
+        url('Nexa-Light.svg#Nexa-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

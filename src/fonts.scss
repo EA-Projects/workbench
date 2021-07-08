@@ -1,0 +1,47 @@
+/*@font-face {
+	font-family: 'Font';
+	src: url('../dist/fonts/FontHeavy.eot');
+	src: url('../dist/fonts/FontHeavy.eot?#iefix') format('embedded-opentype'),
+		url('../dist/fonts/FontHeavy.woff2') format('woff2'),
+		url('../dist/fonts/FontHeavy.woff') format('woff'),
+		url('../dist/fonts/FontHeavy.ttf') format('truetype'),
+		url('../dist/fonts/FontHeavy.svg#FontHeavy') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}*/
+
+@font-face {
+	font-family: 'Font';
+	src: url('../dist/fonts/Font-XBold.eot');
+	src: url('../dist/fonts/Font-XBold.eot?#iefix') format('embedded-opentype'),
+		url('../dist/fonts/Font-XBold.woff2') format('woff2'),
+		url('../dist/fonts/Font-XBold.woff') format('woff'),
+		url('../dist/fonts/Font-XBold.ttf') format('truetype'),
+		url('../dist/fonts/Font-XBold.svg#Font-XBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Font';
+	src: url('../dist/fonts/Font-Bold.eot');
+	src: url('../dist/fonts/Font-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../dist/fonts/Font-Bold.woff2') format('woff2'),
+		url('../dist/fonts/Font-Bold.woff') format('woff'),
+		url('../dist/fonts/Font-Bold.ttf') format('truetype'),
+		url('../dist/fonts/Font-Bold.svg#Font-Bold') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Font';
+	src: url('../dist/fonts/Font-Book.eot');
+	src: url('../dist/fonts/Font-Book.eot?#iefix') format('embedded-opentype'),
+		url('../dist/fonts/Font-Book.woff2') format('woff2'),
+		url('../dist/fonts/Font-Book.woff') format('woff'),
+		url('../dist/fonts/Font-Book.ttf') format('truetype'),
+		url('../dist/fonts/Font-Book.svg#Font-Book') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}

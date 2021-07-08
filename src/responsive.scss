@@ -1,0 +1,1264 @@
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: unset;
+	}
+}
+
+@media (max-width: 1024px) {
+	.content-block {
+		padding: 15px 30px 25px;
+		min-height: 260px;
+	}
+	h1 {
+		font-size: 49px;
+		line-height: 53px;
+	}
+	/***** sections *****/
+	#hero {
+		.main-img {
+			img {
+				width: 850px;
+			}
+		}
+	}
+	#features {
+		.content {
+			.dotted-block {
+				padding: 22px 25px 22px;
+				margin-bottom: 26px;
+			}
+		}
+	}
+	#clients {
+		padding: 110px 0 85px;
+	}
+	#insurers-features {
+		.row.producer-record {
+			.side-graphic {
+				height: 450px;
+				img {
+					right: 50px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.modal-dialog {
+		max-width: 700px;
+	}
+	h2 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.content-block {
+		padding: 10px 20px 20px;
+		min-height: 330px;
+		.circle {
+			width: 35px;
+			height: 35px;
+			img {
+				width: 18px;
+			}
+		}
+	}
+
+	/***** sections *****/
+	#header {
+		nav#main-nav {
+			padding: 10px 25px;
+			.container {
+				display: none;
+			}
+			a.navbar-brand {
+				width: 130px;
+				margin-right: 0;
+			}
+		}
+	}
+
+	#mobile-menu a.navbar-brand {
+		width: 150px;
+		display: table;
+		margin: 0px auto 13px;
+		padding: 0px;
+	}
+	#hero {
+		.image {
+			order: 1;
+		}
+		.info {
+			order: 2;
+		}
+		&.hero-homepage {
+			max-height: unset;
+			height: auto;
+			.main-img {
+				height: 400px;
+				margin-bottom: 50px;
+			}
+			.row {
+				h1,
+				p.featured {
+					text-align: center;
+					max-width: unset;
+				}
+				.button.button-red {
+					margin: 30px auto 20px;
+					display: table;
+				}
+			}
+		}
+		&.hero-support {
+			padding: 25px 0 10px;
+			height: auto;
+		}
+		&.hero-company {
+			padding: 40px 0 70px;
+			.main-img {
+				height: 360px;
+				img {
+					opacity: 0.8;
+				}
+			}
+			.info {
+				padding-top: 25px;
+				h2 {
+					text-align: center;
+					&:after {
+						margin-left: auto;
+					}
+				}
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	#features {
+		h2 {
+			padding: 0;
+			text-align: center;
+			&:after {
+				margin-left: auto;
+			}
+		}
+		.row {
+			.info {
+				z-index: 9;
+			}
+			.image {
+				display: none;
+			}
+		}
+	}
+	#clients {
+		.owl-carousel {
+			.owl-item {
+				.item {
+					height: 80px;
+					padding: 15px 30px;
+					img {
+						width: auto;
+						height: 25px;
+					}
+				}
+			}
+		}
+	}
+
+	#footer {
+		padding: 40px 0 0;
+		.main-info {
+			margin-bottom: 55px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			img.logo {
+				width: 200px;
+				margin: 0;
+			}
+			.social {
+				margin: 0;
+			}
+		}
+		.copyright {
+			margin-top: 35px;
+		}
+	}
+
+	#supports {
+		.row {
+			margin-bottom: 65px;
+
+			&.reverse {
+				.image {
+					order: 1;
+				}
+				.info {
+					order: 3;
+				}
+				.divider {
+					order: 2;
+				}
+				.side-image {
+					max-width: 85%;
+					margin: 0 auto;
+				}
+			}
+		}
+		.side-image {
+			max-width: 85%;
+			margin: 0 auto;
+		}
+	}
+
+	#top-pricing {
+		padding: 110px 0 65px;
+		height: auto;
+		.col-12 {
+			.pricing-hero {
+				opacity: 0.7;
+				width: 950px;
+			}
+		}
+	}
+	#pricing-features {
+		.dotted-block.big {
+			min-height: 920px;
+		}
+	}
+	#team {
+		.content-block {
+			width: 100%;
+			.circle {
+				width: 75px;
+				height: 75px;
+			}
+			h4 {
+				font-size: 19px;
+				line-height: 24px;
+			}
+		}
+	}
+	#culture {
+		padding: 100px 0 80px;
+		.dotted-block {
+			padding: 30px 30px 21px;
+			&.speed {
+				p {
+					letter-spacing: 0em;
+				}
+			}
+		}
+	}
+	#values {
+		padding: 90px 0 80px;
+		.dotted-block {
+			padding: 30px 30px 21px;
+			&.transparency {
+				min-height: unset;
+			}
+		}
+	}
+	#jobs {
+		padding: 85px 0 90px;
+	}
+	#top-position {
+		padding: 120px 0 50px;
+	}
+
+	#top-contact {
+		padding: 130px 0 30px;
+		.col-12 {
+			.contact-hero {
+				width: 900px;
+			}
+		}
+	}
+	#contact-area {
+		.form-container {
+			margin-top: -210px;
+		}
+	}
+	#top-insurers {
+		padding: 105px 0 50px;
+	}
+
+	#insurers-features {
+		padding: 110px 0 35px;
+		.row {
+			&.producer-record {
+				.side-graphic {
+					height: 300px;
+					img {
+						width: 400px;
+					}
+				}
+			}
+			&.reverse .side-graphic img {
+				width: 400px;
+				left: -25px;
+			}
+			&.agent-contracting .side-graphic img {
+				width: 400px;
+				left: -45px;
+			}
+		}
+		.row.producer-record {
+			margin-top: 45px;
+		}
+	}
+
+	#scorecard .row {
+		align-items: center;
+		.image {
+			order: 1;
+		}
+		.info-side {
+			order: 3;
+		}
+		&.reverse {
+			.side-graphic {
+				margin: 0 auto;
+				height: 280px;
+			}
+			.info-side {
+				h4 {
+					text-align: center;
+				}
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	#distribution-channel {
+		.feature-block p.featured {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+	#agencies-features {
+		.row {
+			&.agent-contracting {
+				.side-graphic {
+					img {
+						width: 400px;
+						left: -50px;
+					}
+				}
+			}
+		}
+	}
+	#agent-portal {
+		.chart {
+			height: 250px;
+			img {
+				width: 890px;
+			}
+		}
+	}
+	#dashboards {
+		.chart {
+			.device {
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.message {
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				right: auto;
+			}
+		}
+
+		.row {
+			.image {
+				order: 1;
+			}
+			.info-side {
+				order: 2;
+				.h4 {
+					text-align: center;
+				}
+				p {
+					text-align: center;
+				}
+				h4 {
+					text-align: center;
+				}
+			}
+			&.reverse {
+				.side-graphic {
+					width: 100%;
+					height: 310px;
+					margin: 15px auto 0;
+					img {
+						width: 350px;
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+				.info-side {
+					order: 2;
+					h4 {
+						text-align: center;
+					}
+					p {
+						text-align: center;
+					}
+				}
+			}
+			&.compliance-controls {
+				.side-graphic {
+					margin: 45px auto 0;
+					height: 370px;
+					img {
+						width: 380px;
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+			}
+		}
+	}
+	#apply {
+		.block {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.modal-dialog {
+		max-width: 500px;
+	}
+	.content-block {
+		padding: 15px 30px 20px;
+		min-height: unset;
+		margin-bottom: 55px;
+	}
+	h1 {
+		font-size: 43px;
+		line-height: 49px;
+	}
+	h2 {
+		font-size: 29px;
+		line-height: 32px;
+	}
+	h4 {
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	/**** sections ****/
+	#hero {
+		&.hero-homepage {
+			max-height: unset;
+			height: auto;
+			.main-img {
+				height: 320px;
+				margin-bottom: 50px;
+				img {
+					width: 725px;
+				}
+			}
+		}
+		&.hero-support {
+			padding: 55px 0 40px;
+			.image {
+				z-index: -1;
+				.main-img {
+					height: 250px;
+					z-index: -1;
+					opacity: 0.7;
+				}
+			}
+			.info {
+				h2 {
+					text-align: center;
+					&:after {
+						margin-left: auto;
+					}
+				}
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+	#reviews {
+		h3 {
+			flex-wrap: wrap;
+		}
+	}
+
+	#footer {
+		.copyright {
+			p {
+				text-align: center;
+				margin-bottom: 12px;
+			}
+			.legal {
+				text-align: center;
+			}
+		}
+	}
+	#top-resources {
+		p.pretitle {
+			&.red,
+			&.green {
+				font-size: 14px;
+				margin-bottom: 0;
+				margin-top: 50px;
+			}
+		}
+	}
+	#one-pagers {
+		.content-block {
+			margin-bottom: 25px;
+		}
+	}
+	#faqs {
+		.card {
+			.card-body {
+				padding: 20px 20px 20px 20px;
+			}
+		}
+	}
+	#partners {
+		padding: 80px 0 65px;
+		.logo-holder {
+			margin-top: 40px;
+			flex-wrap: wrap;
+			.logo-block {
+				width: 43%;
+				height: 80px;
+				margin: 2% 3%;
+				img.psadvisory {
+					height: 47px;
+				}
+				img.hipten {
+					height: 30px;
+				}
+				img.greenirony {
+					height: 35px;
+				}
+			}
+		}
+	}
+
+	#supports {
+		.row {
+			&.reverse {
+				.side-image {
+					max-width: 200px;
+					margin-bottom: 35px;
+				}
+			}
+			.side-image {
+				max-width: 200px;
+				margin-bottom: 35px;
+			}
+		}
+		h3,
+		p {
+			text-align: center;
+		}
+	}
+	#solutions {
+		padding-bottom: 25px;
+		.button.button-red {
+			margin-bottom: 70px;
+		}
+		img.top-img {
+			max-width: 220px;
+			margin: 0 auto 25px;
+			display: table;
+		}
+	}
+
+	#top-resources {
+		padding: 120px 0 60px;
+	}
+
+	#top-insurers {
+		.now {
+			margin-top: 40px;
+		}
+	}
+	#pricing-features {
+		.dotted-block.big {
+			min-height: unset;
+		}
+	}
+	#team {
+		.content-block {
+			margin-bottom: 70px;
+		}
+	}
+	#jobs {
+		.department {
+			.position {
+				flex-wrap: wrap;
+				padding: 16px 20px 24px;
+				.title {
+					width: 100%;
+				}
+				.location {
+					width: 100%;
+					margin-left: 56px;
+				}
+			}
+		}
+	}
+	#insurers-features {
+		.row {
+			&.producer-record {
+				margin-bottom: 80px;
+				.side-graphic {
+					margin: 0 auto;
+					img {
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+				h4 {
+					max-width: unset;
+					text-align: center;
+				}
+				p {
+					max-width: unset;
+					text-align: center;
+				}
+			}
+			&.reverse {
+				.side-graphic {
+					margin: 0 auto;
+					height: 250px;
+					img {
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+				.info-side {
+					order: 2;
+					h4,
+					p {
+						text-align: center;
+					}
+				}
+				.image {
+					order: 1;
+				}
+			}
+			&.agent-contracting {
+				margin-top: 60px;
+				margin-bottom: 70px;
+				.side-graphic {
+					margin: 0 auto;
+					height: 310px;
+					img {
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+				.info-side {
+					order: 2;
+					h4,
+					p {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	#scorecard {
+		.row {
+			&.reverse {
+				.side-graphic {
+					img {
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+			}
+		}
+	}
+	#distribution-channel {
+		padding: 80px 0 85px;
+		.feature-block {
+			flex-wrap: wrap;
+			.image {
+				margin: 0 auto 20px;
+			}
+			p.featured {
+				text-align: center;
+			}
+		}
+	}
+	#nipr-transactions {
+		.tablet {
+			height: 360px;
+			img {
+				width: 625px;
+			}
+		}
+		.accelerate {
+			.blocks {
+				.line {
+					flex-wrap: wrap;
+					margin-bottom: 0px;
+					.feature {
+						width: 100%;
+						margin-bottom: 20px;
+						p {
+							text-align: center;
+						}
+						img.icon {
+							margin: 0 auto 15px;
+						}
+						&.right {
+							img.icon {
+								margin: 0 auto 15px;
+							}
+							p {
+								text-align: center;
+							}
+						}
+					}
+					.vertical-divider {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	#get-started {
+		padding: 70px 0;
+		h1 {
+			font-size: 27px;
+			margin-bottom: 32px;
+		}
+	}
+	#agencies-features {
+		img.agent-record-sync {
+			width: 100%;
+		}
+	}
+	#agencies-features {
+		.row {
+			&.agent-contracting {
+				.side-graphic {
+					width: 100%;
+					height: 260px;
+					margin: auto;
+					margin-bottom: 15px;
+					margin-top: 70px;
+					img {
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+			}
+			.info-side {
+				h4 {
+					text-align: center;
+				}
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+	#agent-portal {
+		padding: 0px 0 90px;
+		.chart {
+			height: 210px;
+			img {
+				width: 125%;
+			}
+		}
+	}
+	#producer-details {
+		padding: 100px 0 85px;
+		.chart {
+			flex-wrap: wrap;
+			img {
+				width: 100%;
+				&.part-2 {
+					margin-top: -30px;
+				}
+			}
+		}
+	}
+
+	#body-legal {
+		.contents-table {
+			.column {
+				width: 100%;
+				padding-right: 0px;
+			}
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.modal-dialog {
+		max-width: 300px;
+	}
+	p {
+		font-size: 14px;
+		line-height: 21px;
+		&.featured {
+			font-size: 17px;
+			line-height: 27px;
+			font-weight: 200;
+		}
+	}
+	h1 {
+		font-size: 37px;
+		line-height: 43px;
+	}
+	h2 {
+		font-size: 26px;
+		line-height: 29px;
+		&:after {
+			width: 45px;
+			height: 5px;
+		}
+	}
+	ul.checked-list li {
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.horizontal-divider img {
+		width: 600px;
+	}
+	img.top-icon {
+		width: 52px;
+		margin: 0 auto 25px;
+		display: table;
+	}
+	/**** section ****/
+	#hero {
+		&.hero-homepage {
+			.main-img {
+				height: 250px;
+				margin-bottom: 40px;
+				img {
+					width: 600px;
+				}
+			}
+		}
+		&.hero-support {
+			.main-img img {
+				width: 650px;
+			}
+		}
+		&.hero-company {
+			.main-img {
+				height: 260px;
+				img {
+					width: 650px;
+					top: 50%;
+				}
+			}
+		}
+	}
+	#features {
+		.content {
+			.dotted-block {
+				width: 100%;
+				img {
+					margin: 0 auto;
+					display: table;
+				}
+				h4,
+				p {
+					text-align: center;
+				}
+			}
+		}
+	}
+	#reviews {
+		h3 {
+			span.salesforce {
+				width: 75px;
+				margin: 0 10px;
+			}
+		}
+		.review-block {
+			.top {
+				padding: 20px 15px;
+				.information {
+					span.rate {
+						font-size: 48px;
+					}
+					img.medal {
+						width: 45px;
+						margin-right: 10px;
+					}
+					.side-info {
+						margin-left: 10px;
+						p {
+							font-size: 12px;
+						}
+						.stars {
+							margin-top: -7px;
+							img {
+								width: 99px;
+							}
+						}
+					}
+				}
+			}
+			.bottom {
+				.single {
+					flex-wrap: nowrap;
+					.person {
+						width: 32px;
+						height: 32px;
+						padding: 2px;
+					}
+				}
+			}
+		}
+	}
+	#footer {
+		.main-info {
+			flex-wrap: wrap;
+			justify-content: center;
+			img.logo {
+				margin: 0 30px 15px 0;
+				width: 150px;
+			}
+			a.link {
+				margin-bottom: 15px;
+			}
+			.social {
+				margin: 0;
+				width: 100%;
+				justify-content: center;
+			}
+		}
+		.accesses {
+			margin-bottom: 25px;
+			text-align: center;
+			h4,
+			a {
+				text-align: center;
+			}
+		}
+		.copyright {
+			margin-top: 15px;
+		}
+	}
+	#partners {
+		.logo-holder {
+			.logo-block {
+				width: 100%;
+			}
+		}
+	}
+	#faqs {
+		.card {
+			.card-body {
+				padding: 15px;
+			}
+			.card-header {
+				padding: 10px 12px 4px;
+				.btn-link {
+					font-size: 15px;
+				}
+				h5 span.number {
+					font-size: 23px;
+					line-height: 27px;
+					margin-right: 12px;
+					min-width: 33px;
+				}
+			}
+		}
+	}
+	#pricing-features {
+		.dotted-block {
+			padding: 25px;
+			img.icon {
+				width: 40px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	#team {
+		padding: 85px 0 70px;
+		.content-block {
+			margin-bottom: 85px;
+			h4 {
+				font-size: 22px;
+				line-height: 26px;
+			}
+		}
+	}
+
+	#jobs {
+		padding: 75px 0 60px;
+
+		.department {
+			.position {
+				padding: 20px 20px 20px;
+				p.role {
+					font-size: 16px;
+					line-height: 21px;
+					margin-bottom: 7px;
+					text-align: left;
+				}
+				.title {
+					.circle {
+						display: none;
+					}
+				}
+				.location {
+					margin-left: 0px;
+					img.pin {
+						width: 10px;
+						margin-right: 8px;
+					}
+					p.pretitle {
+						font-size: 11px;
+						line-height: 16px;
+						letter-spacing: 0.1em;
+					}
+				}
+			}
+		}
+	}
+
+	#contact-area {
+		.form-container {
+			padding: 25px 30px;
+			form#contact_form {
+				#input_name,
+				#input_company,
+				#input_email,
+				#input_phone {
+					width: 100%;
+				}
+			}
+		}
+	}
+	#insurers-features {
+		.row {
+			&.producer-record {
+				.side-graphic {
+					width: 100%;
+					height: 260px;
+					img {
+						width: 340px;
+					}
+				}
+			}
+			&.reverse {
+				.side-graphic {
+					width: 100%;
+					height: 210px;
+					img {
+						width: 340px;
+					}
+				}
+			}
+			&.agent-contracting {
+				.side-graphic {
+					width: 100%;
+					height: 210px;
+					img {
+						width: 300px;
+					}
+				}
+			}
+		}
+	}
+	#scorecard {
+		.row {
+			&.reverse {
+				.side-graphic {
+					width: 100%;
+					height: 210px;
+					margin-top: 30px;
+					img {
+						width: 350px;
+					}
+				}
+			}
+		}
+	}
+	#nipr-transactions {
+		.tablet {
+			height: 230px;
+			img {
+				width: 425px;
+			}
+		}
+	}
+	#top-insurers {
+		.now {
+			margin-top: 70px;
+		}
+	}
+	#agent-portal {
+		padding: 0px 0 60px;
+		.chart {
+			height: 140px;
+			margin-top: 20px;
+		}
+	}
+	#scorecard {
+		padding: 70px 0 45px;
+	}
+	#dashboards {
+		.chart {
+			width: 100%;
+			height: 400px;
+			.device {
+				width: 140%;
+			}
+			.message {
+				padding: 15px 19px;
+				width: 100%;
+				img.icon {
+					width: 40px;
+				}
+			}
+		}
+	}
+	#dashboards {
+		padding: 85px 0;
+		.row {
+			&.reverse {
+				.side-graphic {
+					height: 230px;
+					margin: 45px auto 10px;
+					img {
+						width: 300px;
+					}
+				}
+			}
+			&.compliance-controls {
+				.side-graphic {
+					width: 100%;
+					height: 270px;
+					img {
+						width: 300px;
+					}
+				}
+			}
+		}
+	}
+	#apply {
+		padding: 110px 0 100px;
+	}
+	#nipr-transactions {
+		padding: 45px 0 40px;
+	}
+}
+
+@media (max-width: 375px) {
+	p.featured {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	h3 {
+		font-size: 21px;
+		line-height: 26px;
+	}
+
+	/**** sections ****/
+	#hero {
+		&.hero-homepage {
+			.main-img {
+				height: 210px;
+				img {
+					width: 490px;
+				}
+			}
+		}
+		&.hero-company {
+			.main-img {
+				height: 210px;
+				img {
+					width: 450px;
+					top: 60%;
+				}
+			}
+		}
+	}
+
+	#reviews {
+		padding: 70px 0 65px;
+		.review-block {
+			.top {
+				.access {
+					a.round-button {
+						display: none;
+					}
+				}
+			}
+			.bottom {
+				.single {
+					.data {
+						p.opinion {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+	#scorecard {
+		.row {
+			&.reverse {
+				.side-graphic {
+					img {
+						width: 300px;
+					}
+				}
+			}
+		}
+	}
+	#nipr-transactions {
+		.tablet {
+			height: 200px;
+			img {
+				width: 375px;
+			}
+		}
+	}
+	#apply {
+		padding: 70px 0 60px;
+	}
+	#producer-details {
+		.chart {
+			img.part-2 {
+				margin-top: -20px;
+			}
+		}
+	}
+}
