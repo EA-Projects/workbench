@@ -1,0 +1,46 @@
+///// Morning
+html[data-theme='morning'] {
+	--main: #8b7e7c;
+
+	#opening {
+		background-image: url(../images/hero-background-morning.jpg);
+	}
+}
+
+///// Noon
+html[data-theme='noon'] {
+	--main: #bea996;
+
+	#opening {
+		background-image: url(../images/hero-background-noon.jpg);
+	}
+}
+
+///// Evening
+html[data-theme='evening'] {
+	--main: #7b6a85;
+
+	#opening {
+		background-image: url(../images/hero-background-evening.jpg);
+	}
+}
+
+///// Night
+html[data-theme='night'] {
+	--main: #090827;
+
+	#header {
+		.main-logo {
+			&.light-mode {
+				display: none;
+			}
+			&.dark-mode {
+				display: block;
+			}
+		}
+	}
+
+	#opening {
+		background-image: url(../images/hero-background-night.jpg);
+	}
+}
