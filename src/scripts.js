@@ -23,8 +23,26 @@ $(window).on('load', function () {
 	});
 	wow.init();
 
-	// Asign day theme
-	$('html').attr('data-theme', 'morning');
+	// Preload images
+	function preload(arrayOfImages) {
+		$(arrayOfImages).each(function () {
+			$('<img/>')[0].src = this;
+		});
+	}
+
+	// Usage:
+
+	preload([
+		'images/hero-background-evening.jpg',
+		'images/hero-background-morning.jpg',
+		'images/hero-background-noon.jpg',
+		'images/hero-background-night.jpg',
+	]);
+
+	// Add animation class to box
+	setTimeout(function () {
+		$('#opening .box').addClass('animated');
+	}, 1400);
 
 	// Trigger table sorting
 	$('#table th.description').css('pointer-events', 'none');
@@ -41,7 +59,7 @@ $(window).on('scroll', function () {
 });
 
 function isScrolledIntoView(elem) {
-	var docViewTop = $(window).scrollTop();
+	var docViewTop = $(window).scrollTop() + 100;
 	var docViewBottom = docViewTop + $(window).height();
 
 	var elemTop = $(elem).offset().top;

@@ -169,6 +169,10 @@ a {
 	}
 }
 
+//////// Box Animation
+@import './parts/box.scss';
+
+//////// Content
 #content {
 	background: linear-gradient(0deg, var(--background) 15%, var(--main) 100%);
 	padding-bottom: 50px;
@@ -219,11 +223,7 @@ a {
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	.note {
-		color: fade-out($font-color, 0.6);
-		font-size: 12px;
-		margin-top: 25px;
-	}
+
 	.graphic-col {
 		width: 65%;
 	}
@@ -292,6 +292,11 @@ a {
 	}
 	p.featured {
 		max-width: 550px;
+	}
+	.note {
+		color: fade-out($font-color, 0.5);
+		font-size: 12px;
+		margin-top: 10px;
 	}
 }
 
