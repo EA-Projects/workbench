@@ -90,7 +90,7 @@
 		}
 		@media (max-width: 424px) {
 			font-size: 10px;
-			letter-spacing: 1px;
+			letter-spacing: 2px;
 			top: 15px;
 		}
 	}
@@ -118,7 +118,7 @@
 		}
 		@media (max-width: 575px) {
 			@include magic-border(3px, #fff, 0.6s, 0);
-			padding: 25px 5px;
+			padding: 25px 8px;
 		}
 	}
 

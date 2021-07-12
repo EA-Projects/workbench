@@ -94,6 +94,10 @@ footer {
 			&:hover {
 				opacity: 0.5;
 			}
+			@media (max-width: 575px) {
+				width: 33px;
+				height: 33px;
+			}
 		}
 	}
 	ul {
