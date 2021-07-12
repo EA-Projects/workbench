@@ -394,7 +394,7 @@ a {
 
 #table {
 	margin-top: 60px;
-	height: 1455px;
+	height: 1105px;
 	overflow: scroll;
 	@media (max-width: 991px) {
 		height: 660px;
@@ -432,7 +432,7 @@ a {
 	td {
 		border-left: 1px solid $table-border;
 		border-right: 1px solid $table-border;
-		padding: 22px 20px;
+		padding: 20px 20px;
 		&.rank {
 			width: 9%;
 			text-align: center;
@@ -447,7 +447,7 @@ a {
 			}
 		}
 		&.companyname {
-			width: 19%;
+			width: 15%;
 			.company {
 				display: flex;
 				align-items: center;
@@ -491,6 +491,7 @@ a {
 			}
 		}
 		&.sector {
+			width: 23%;
 			font-size: 12px;
 			line-height: 1.2em;
 			@media (max-width: 424px) {
@@ -502,7 +503,7 @@ a {
 			font-weight: 500;
 			span {
 				font-size: 11px;
-				margin-right: 2px;
+				margin-right: 1px;
 			}
 			@media (max-width: 424px) {
 				font-size: 10px;
@@ -514,7 +515,7 @@ a {
 			}
 		}
 		&.description {
-			width: 44%;
+			width: 37%;
 			font-weight: 300;
 			font-size: 13px;
 			line-height: 1.2em;
@@ -578,7 +579,7 @@ a {
 		}
 	}
 	tr.item {
-		height: 70px;
+		height: 65px;
 		&:nth-child(even) {
 			background: fade-out($font-color, 0.95);
 		}

@@ -23,7 +23,32 @@ $(window).on('load', function () {
 	});
 	wow.init();
 
-	// Preload images
+	////// Detect Daytime and apply theme
+	// get user's time
+	const currentTime = new Date();
+	const currentHour = currentTime.getHours(); // returns a number between 0-23
+	// Transform a number between 0-23 to a string
+	// 'morning' | 'noon' | 'evening' | 'night'
+	function hourToMoment(hour) {
+		if (hour > 5 && hour < 11) {
+			// return 'morning';
+
+			$('html').attr('data-theme', 'morning');
+		} else if (hour >= 11 && hour < 14) {
+			$('html').attr('data-theme', 'noon');
+		} else if (hour >= 14 && hour < 19) {
+			$('html').attr('data-theme', 'evening');
+			console.log('success');
+		} else {
+			$('html').attr('data-theme', 'night');
+		}
+	}
+	// debugging
+	/*for (let i = 0; i < 24; i++) {
+	console.log(i + ': ' + hourToMoment(i));
+}*/
+
+	////// Preload images
 	function preload(arrayOfImages) {
 		$(arrayOfImages).each(function () {
 			$('<img/>')[0].src = this;
