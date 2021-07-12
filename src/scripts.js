@@ -1,5 +1,29 @@
 ////// DOCUMENT READY
-$(document).ready(function () {});
+$(document).ready(function () {
+	////// Detect Daytime and apply theme
+	// get user's time
+	const currentTime = new Date();
+	const currentHour = currentTime.getHours(); // returns a number between 0-23
+	hourToMoment(currentHour);
+	// Transform a number between 0-23 to a string
+	// 'morning' | 'noon' | 'evening' | 'night'
+	function hourToMoment(currentHour) {
+		if (currentHour > 5 && currentHour < 11) {
+			// return 'morning';
+			$('html').attr('data-theme', 'morning');
+		} else if (currentHour >= 11 && currentHour < 14) {
+			$('html').attr('data-theme', 'noon');
+		} else if (currentHour >= 14 && currentHour < 19) {
+			$('html').attr('data-theme', 'evening');
+		} else {
+			$('html').attr('data-theme', 'night');
+		}
+	}
+	// debugging
+	/*for (let i = 0; i < 24; i++) {
+	console.log(i + ': ' + hourToMoment(i));
+	}*/
+});
 
 // Smooth scroll
 $(document).on('click', 'a[href^="#"]', function (event) {
@@ -22,31 +46,6 @@ $(window).on('load', function () {
 		mobile: true,
 	});
 	wow.init();
-
-	////// Detect Daytime and apply theme
-	// get user's time
-	const currentTime = new Date();
-	const currentHour = currentTime.getHours(); // returns a number between 0-23
-	// Transform a number between 0-23 to a string
-	// 'morning' | 'noon' | 'evening' | 'night'
-	function hourToMoment(hour) {
-		if (hour > 5 && hour < 11) {
-			// return 'morning';
-
-			$('html').attr('data-theme', 'morning');
-		} else if (hour >= 11 && hour < 14) {
-			$('html').attr('data-theme', 'noon');
-		} else if (hour >= 14 && hour < 19) {
-			$('html').attr('data-theme', 'evening');
-			console.log('success');
-		} else {
-			$('html').attr('data-theme', 'night');
-		}
-	}
-	// debugging
-	/*for (let i = 0; i < 24; i++) {
-	console.log(i + ': ' + hourToMoment(i));
-}*/
 
 	////// Preload images
 	function preload(arrayOfImages) {
