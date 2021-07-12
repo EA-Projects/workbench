@@ -53,17 +53,44 @@ h6 {
 h1 {
 	font-size: 76px;
 	letter-spacing: -0.02em;
+	@media (max-width: 991px) {
+		font-size: 61px;
+	}
+	@media (max-width: 767px) {
+		font-size: 47px;
+	}
+	@media (max-width: 575px) {
+		font-size: 44px;
+		margin: 0;
+		line-height: 0.95em;
+	}
+	@media (max-width: 424px) {
+		font-size: 38px;
+	}
 }
 
 h2 {
 	font-size: 37px;
 	margin-bottom: 25px;
+	@media (max-width: 991px) {
+		font-size: 31px;
+	}
+	@media (max-width: 767px) {
+		font-size: 25px;
+	}
+	@media (max-width: 424px) {
+		font-size: 22px;
+	}
 }
 
 h5 {
 	font-size: 19px;
 	line-height: 1.3em;
 	margin-bottom: 10px;
+	@media (max-width: 767px) {
+		font-size: 16px;
+		line-height: 1.35em;
+	}
 }
 
 h6 {
@@ -80,9 +107,16 @@ p {
 	text-align: center;
 	margin: 0 auto 20px;
 	color: var(--font);
+	@media (max-width: 767px) {
+		font-size: 12px;
+		line-height: 1.5em;
+	}
 	&.featured {
 		font-size: 18px;
 		line-height: 1.5em;
+		@media (max-width: 767px) {
+			font-size: 15px;
+		}
 	}
 }
 

@@ -6,6 +6,9 @@ footer {
 		border-top: 1px solid #cccccc;
 		border-bottom: 1px solid #cccccc;
 		margin-bottom: 35px;
+		@media (max-width: 767px) {
+			margin-bottom: 40px;
+		}
 		.row {
 			align-items: center;
 			padding-top: 25px;
@@ -16,21 +19,47 @@ footer {
 			margin: 0;
 			margin-top: 3px;
 			color: $font-color;
+			@media (max-width: 767px) {
+				text-align: center;
+			}
 		}
 	}
 	.main-logo {
 		width: auto;
+		@media (max-width: 767px) {
+			margin: 5px auto 25px;
+			display: table;
+		}
+		@media (max-width: 575px) {
+			width: 125px;
+		}
 	}
 	.footer-title {
 		color: $font-color;
 		text-align: left;
 		font-weight: 500;
+		@media (max-width: 767px) {
+			margin-bottom: 10px;
+		}
+		@media (max-width: 575px) {
+			text-align: center;
+		}
 	}
 	.copyright-column {
 		align-self: flex-end;
 		p.copyright {
 			font-size: 11px;
+			line-height: 1.1em;
 			margin: 0;
+			text-align: left;
+		}
+		@media (max-width: 767px) {
+			margin-bottom: 10px;
+			margin-top: 00px;
+			order: 2;
+			p.copyright {
+				text-align: center;
+			}
 		}
 	}
 	li.social {
@@ -38,6 +67,16 @@ footer {
 		flex-wrap: wrap;
 		align-items: center;
 		width: 100%;
+		@media (max-width: 991px) {
+			width: 200%;
+		}
+		@media (max-width: 767px) {
+			width: 100%;
+			margin-top: 20px;
+		}
+		@media (max-width: 575px) {
+			justify-content: center;
+		}
 		a {
 			width: 28px;
 			height: 28px;
@@ -70,6 +109,21 @@ footer {
 			}
 			&:last-child {
 				margin-bottom: 0;
+			}
+			@media (max-width: 767px) {
+				margin: 4px 0;
+				&.empty {
+					display: none;
+				}
+				&:last-child {
+					margin-bottom: 40px;
+				}
+			}
+			@media (max-width: 575px) {
+				text-align: center;
+			}
+			@media (max-width: 424px) {
+				font-size: 11px;
 			}
 		}
 	}
