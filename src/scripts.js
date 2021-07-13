@@ -11,9 +11,9 @@ $(document).ready(function () {
 		if (currentHour > 5 && currentHour < 11) {
 			// return 'morning';
 			$('html').attr('data-theme', 'morning');
-		} else if (currentHour >= 11 && currentHour < 14) {
+		} else if (currentHour >= 11 && currentHour < 15) {
 			$('html').attr('data-theme', 'noon');
-		} else if (currentHour >= 14 && currentHour < 19) {
+		} else if (currentHour >= 15 && currentHour < 19) {
 			$('html').attr('data-theme', 'evening');
 		} else {
 			$('html').attr('data-theme', 'night');
@@ -119,27 +119,27 @@ if (
 
 ////// STATS ANIMATION
 function animateStats() {
-  $('.progress').addClass('animate');
+	$('.progress').addClass('motion');
 }
 
 const elements = document.querySelectorAll('#stats');
 
-function handleIntersection(entries, observer){
-  entries.forEach(entry => {
-    if (entry.intersectionRatio > 0) {
-      animateStats();
-      observer.unobserve(entry.target);
-    }
-  });
+function handleIntersection(entries, observer) {
+	entries.forEach((entry) => {
+		if (entry.intersectionRatio > 0) {
+			animateStats();
+			observer.unobserve(entry.target);
+		}
+	});
 }
-$(document).ready(function() {
-  const options = {
-    root: null,
-    rootMargin: "-100px",
-    threshold: 0
-  };
-  const observer = new IntersectionObserver(handleIntersection, options);
-  elements.forEach(obs => {
-    observer.observe(obs);
-  });
+$(document).ready(function () {
+	const options = {
+		root: null,
+		rootMargin: '-100px',
+		threshold: 0,
+	};
+	const observer = new IntersectionObserver(handleIntersection, options);
+	elements.forEach((obs) => {
+		observer.observe(obs);
+	});
 });

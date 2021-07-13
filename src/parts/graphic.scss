@@ -229,7 +229,7 @@
 		position: absolute;
 	}
 	.progress {
-		&.animate {
+		&.motion {
 			.progress-right .progress-bar {
 				animation: loading-left 0.8s linear forwards;
 			}
