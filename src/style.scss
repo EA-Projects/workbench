@@ -10,7 +10,7 @@ html {
 }
 
 $font-color: #002138;
-$table-border: #e5e8eb;
+$table-border: #dfe2e4;
 $table-title-color: fade-out($font-color, 0.6);
 
 //////// Fonts
@@ -425,6 +425,7 @@ a {
 		top: 0;
 		background: #fff;
 		height: 55px;
+		z-index: 1;
 		@media (max-width: 991px) {
 			height: 45px;
 		}
@@ -447,7 +448,9 @@ a {
 			}
 		}
 		&.companyname {
-			width: 15%;
+			width: 18%;
+			padding-left: 15px;
+			padding-right: 15px;
 			.company {
 				display: flex;
 				align-items: center;
@@ -458,16 +461,23 @@ a {
 					border-radius: 50px;
 					overflow: hidden;
 					margin-right: 10px;
-					border: 1px solid $table-border;
+					position: relative;
 					img {
 						width: 25px;
 						height: 25px;
+						position: absolute;
+						top: 0;
+						left: 0;
+						border-radius: 50px;
+						border: 1px solid $table-border;
 					}
 				}
 				p {
 					margin: 0;
 					text-align: left;
 					font-weight: 500;
+					font-size: 15px;
+					line-height: 1em;
 					@media (max-width: 991px) {
 						font-size: 13px;
 					}
@@ -491,7 +501,7 @@ a {
 			}
 		}
 		&.sector {
-			width: 23%;
+			width: 22%;
 			font-size: 12px;
 			line-height: 1.2em;
 			@media (max-width: 424px) {
@@ -515,7 +525,7 @@ a {
 			}
 		}
 		&.description {
-			width: 37%;
+			width: 35%;
 			font-weight: 300;
 			font-size: 13px;
 			line-height: 1.2em;
@@ -534,6 +544,7 @@ a {
 		text-transform: uppercase;
 		font-weight: 500;
 		font-size: 11px;
+		line-height: 1.1em;
 		text-align: center;
 		letter-spacing: 0.15em;
 		padding: 18px 5px 16px;
