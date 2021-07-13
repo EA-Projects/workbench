@@ -75,24 +75,24 @@ $(window).on('load', function () {
 	$('#table th.rank').click();
 });
 
-// Animate graphic when in viewport
-$(window).on('scroll', function () {
-	$('#stats').each(function () {
-		if (isScrolledIntoView($(this))) {
-			$(this).find('.progress').addClass('animate');
-		}
-	});
-});
+// // Animate graphic when in viewport
+// $(window).on('scroll', function () {
+// 	$('#stats').each(function () {
+// 		if (isScrolledIntoView($(this))) {
+// 			$(this).find('.progress').addClass('animate');
+// 		}
+// 	});
+// });
 
-function isScrolledIntoView(elem) {
-	var docViewTop = $(window).scrollTop() + 180;
-	var docViewBottom = docViewTop + $(window).height();
+// function isScrolledIntoView(elem) {
+// 	var docViewTop = $(window).scrollTop() + 180;
+// 	var docViewBottom = docViewTop + $(window).height();
 
-	var elemTop = $(elem).offset().top;
-	var elemBottom = elemTop + $(elem).height();
+// 	var elemTop = $(elem).offset().top;
+// 	var elemBottom = elemTop + $(elem).height();
 
-	return elemBottom <= docViewBottom && elemTop >= docViewTop;
-}
+// 	return elemBottom <= docViewBottom && elemTop >= docViewTop;
+// }
 
 ////// STICKY MENU
 $(window).scroll(function () {
@@ -119,5 +119,31 @@ if (
 	$('.animate').removeClass('animate'); // to remove transition
 }
 
+////// STATS ANIMATION
+function animateStats() {
+  $('.progress').addClass('animate');
+}
+
+const elements = document.querySelectorAll('#stats');
+
+function handleIntersection(entries, observer){
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      animateStats();
+      observer.unobserve(entry.target);
+    }
+  });
+}
+$(document).ready(function() {
+  const options = {
+    root: null,
+    rootMargin: "-100px",
+    threshold: 0
+  };
+  const observer = new IntersectionObserver(handleIntersection, options);
+  elements.forEach(obs => {
+    observer.observe(obs);
+  });
+});
 /******/ })()
 ;
