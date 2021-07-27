@@ -380,10 +380,13 @@ a {
     max-width: 550px;
   }
   .note {
-    color: fade-out($font-color, 0.5);
     font-size: 12px;
     line-height: 1.2em;
     margin-top: 20px;
+    a {
+      border: 0;
+      color: fade-out($font-color, 0.5);
+    }
     @media (max-width: 424px) {
       font-size: 10px;
     }
