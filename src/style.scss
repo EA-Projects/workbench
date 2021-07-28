@@ -381,10 +381,10 @@ a {
   }
   .note {
     font-size: 12px;
-    line-height: 1.2em;
+    line-height: 2em;
     margin-top: 20px;
     a {
-      border: 0;
+      border-color: fade-out($font-color, 0.5);
       color: fade-out($font-color, 0.5);
     }
     @media (max-width: 424px) {
