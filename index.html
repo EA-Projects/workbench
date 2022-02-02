@@ -59,21 +59,24 @@
               data-wow-duration="1s"
               data-wow-delay=".2s"
             >
-              <img
-                src="images/logo.svg"
-                alt="workbench"
-                width="180"
-                height="19"
-                class="main-logo light-mode"
-              />
-
-              <img
-                src="images/logo-white.svg"
-                alt="workbench"
-                width="180"
-                height="19"
-                class="main-logo dark-mode"
-              />
+              <a href="https://www.work-bench.com">
+                <img
+                  src="images/logo.svg"
+                  alt="workbench"
+                  width="180"
+                  height="19"
+                  class="main-logo light-mode"
+                />
+              </a>
+              <a href="https://www.work-bench.com">
+                <img
+                  src="images/logo-white.svg"
+                  alt="workbench"
+                  width="180"
+                  height="19"
+                  class="main-logo dark-mode"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -99,11 +102,11 @@
                 data-wow-delay="3s"
                 data-wow-offset="0"
               >
-                <a href="#index" class="btn">Check out the index</a>
+                <a href="#index" class="btn">Check out the directory</a>
                 <a
                   href="https://www.work-bench.com/the-state-of-enterprise-tech-in-nyc-1h-2021-funding-report"
                   class="btn btn-secondary"
-                  >Read the latest funding report</a
+                  >Read NYC funding report</a
                 >
               </div>
             </div>
@@ -148,25 +151,25 @@
                 </div>
                 <h2>Introducing the New York City Enterprise Tech Index</h2>
                 <p>
-                  This ranking recognizes NYC’s leading enterprise software
+                  This ranking recognize NYC's leading enterprise software
                   companies building disruptive and innovative new solutions for
-                  the Fortune 500’s most challenging problems. Members of the
-                  NYC Enterprise Tech Index represent the largest NYC-based
-                  public and private, venture-backed enterprise companies,
-                  ranked by market cap and total funding amount, respectively.
+                  the Fortune 500's most challenging problems. Members of the
+                  NYC Enterprice Tech Index represent the largest NYC-based
+                  private, venture-backed enterprise companies, ranked by total
+                  funding amount.
                 </p>
                 <div id="stats">
                   <div class="graphic-col">
                     <div class="graphic-container">
                       <div class="data-container">
                         <div class="data-center">
-                          <p class="number">6.7<span>B</span></p>
-                          <p>TOTAL FUNDING IN 1H21</p>
+                          <p class="number">2.3<span>B</span></p>
+                          <p>TOTAL FUNDING</p>
                         </div>
                         <div class="data-bottom">
-                          <p>Data / AI / ML</p>
-                          <p>Risk / Security</p>
-                          <p>Sales / Marketing</p>
+                          <p>AI & ML</p>
+                          <p>Risk & Security</p>
+                          <p>Sales / Martech</p>
                           <p>Cloud Native / Dev Tools</p>
                           <p>Collaboration / Productivity</p>
                           <p>HR / Future of Work</p>
@@ -229,26 +232,31 @@
                   <div class="data-col">
                     <div class="block-container">
                       <div class="block animate fadeInRight">
-                        <p class="number">146<span>%</span></p>
-                        <p class="data">1H21 GROWTH in VC $ VS. 1H20</p>
+                        <p class="number">3.5<span>K</span></p>
+                        <p class="data"># Industries</p>
                       </div>
                       <div
                         class="block animate fadeInRight"
                         data-wow-delay=".2s"
                       >
-                        <p class="number">18</p>
-                        <p class="data">Unicorns</p>
+                        <p class="number">754</p>
+                        <p class="data">Women founders</p>
                       </div>
                       <div
                         class="block animate fadeInRight"
                         data-wow-delay=".4s"
                       >
-                        <p class="number">33<span></span></p>
-                        <p class="data">Next guards</p>
+                        <p class="number">49<span>%</span></p>
+                        <p class="data">2020 growth</p>
                       </div>
                     </div>
                   </div>
                 </div>
+                <p class="note">
+                  Note: Data is sourced from the Work-Bench State of Enterprise
+                  Tech in NYC: Funding Report and will be updated on a bi-annual
+                  basis.
+                </p>
               </div>
               <div class="divider animate fadeIn">
                 <div class="line top-line">
@@ -262,14 +270,14 @@
                   <hr />
                 </div>
                 <p>
-                  For the past decade, NYC has been cultivating a world-class
+                  For the past decade, NYC has cultivated a world-class
                   enterprise tech ecosystem. Thanks to a dense population of
                   Fortune 500 buyers, tech talent, and investors, NYC is now a
                   thriving community of enterprise companies. At Work-Bench, we
                   have been tracking this growth for the past several years in
                   our State of Enterprise Tech in NYC: Funding Reports, and are
-                  excited to see the fundings, exit activity, and size of the
-                  local NYC enterprise startup pipeline continue to boom.
+                  excited to see the fundings, exit activity, and the size of
+                  the local NYC enterprise startup pipeline continue to boom.
                 </p>
                 <div class="line"><hr /></div>
               </div>
@@ -303,20 +311,19 @@
                     </g>
                   </svg>
                 </div>
-                <h2>New York City Enterprise Tech Index</h2>
+                <h2>NY Enterprise Tech Directory</h2>
                 <p class="featured">
-                  Explore Work-Bench’s ranking of the largest, fast-growth
-                  enterprise companies in New York City.
+                  Explore Work-Bench's ranking of the largest, fast-growth
+                  enterprise startups in New York City with proven track
+                  records.
                 </p>
-                <div id="table">
+                <h4>Top Public Companies</h4>
+                <div id="table" class="public-companies">
                   <table class="sortable">
                     <tr>
                       <th class="rank"># Rank</th>
                       <th class="companyname">Company Name</th>
                       <th class="sector">Sector</th>
-                      <th class="funding sorttable_numeric">
-                        Total <br />Raised $M
-                      </th>
                       <th class="description">Description</th>
                     </tr>
 
@@ -339,39 +346,10 @@
                         </div>
                       </td>
                       <td class="sector">Cloud Native / Dev Tools</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
                       <td class="description">Cloud Monitoring as a Service</td>
                     </tr>
                     <tr class="item">
                       <td class="rank">02</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.uipath.com"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/uipath.jpg"
-                              alt="UiPath"
-                            />
-                          </div>
-                          <p>UiPath</p>
-                        </div>
-                      </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
-                      <td class="description">
-                        Robotic process automation software
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">03</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -389,39 +367,33 @@
                         </div>
                       </td>
                       <td class="sector">Cloud Native / Dev Tools</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
                       <td class="description">Open-source NoSQL database</td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">04</td>
+                      <td class="rank">03</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.varonis.com"
+                            href="https://www.uipath.com"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/varons.jpg"
-                              alt="Varonis Systems"
+                              src="images/companies/uipath.jpg"
+                              alt="UiPath"
                             />
                           </div>
-                          <p>Varonis Systems</p>
+                          <p>UiPath</p>
                         </div>
                       </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
                       <td class="description">
-                        Data security and threat detection
+                        Robotic process automation software
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">05</td>
+                      <td class="rank">04</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -439,15 +411,58 @@
                         </div>
                       </td>
                       <td class="sector">Cloud Native / Dev Tools</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
                       <td class="description">
                         Developer cloud and infrastructure software
                       </td>
                     </tr>
+
+                    <tr class="item">
+                      <td class="rank">05</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.braze.com"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img src="images/companies/braze.jpg" alt="Braze" />
+                          </div>
+                          <p>Braze</p>
+                        </div>
+                      </td>
+                      <td class="sector">Sales / Marketing</td>
+                      <td class="description">
+                        Cloud-based customer engagement software
+                      </td>
+                    </tr>
+
                     <tr class="item">
                       <td class="rank">06</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.varonis.com"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/varons.jpg"
+                              alt="Varonis Systems"
+                            />
+                          </div>
+                          <p>Varonis Systems</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="description">
+                        Data security and threat detection
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">07</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -465,15 +480,13 @@
                         </div>
                       </td>
                       <td class="sector">Sales / Marketing</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
                       <td class="description">
                         Customer experience management
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">07</td>
+                      <td class="rank">08</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -491,15 +504,12 @@
                         </div>
                       </td>
                       <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
                       <td class="description">
                         Website traffic analytics provider
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">08</td>
+                      <td class="rank">09</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -514,14 +524,76 @@
                         </div>
                       </td>
                       <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding" sorttable_customkey="9999">
-                        <span>Public Company</span>
-                      </td>
                       <td class="description">AI search platform</td>
                     </tr>
 
                     <tr class="item">
-                      <td class="rank">09</td>
+                      <td class="rank">10</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.kaltura.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/kaltura.jpg"
+                              alt="Kaltura"
+                            />
+                          </div>
+                          <p>Kaltura</p>
+                        </div>
+                      </td>
+                      <td class="sector">Collaboration / Productivity</td>
+                      <td class="description">Cloud video platform</td>
+                    </tr>
+                  </table>
+                </div>
+                <hr />
+                <h4>Top Privately-Held Companies</h4>
+                <div id="table" class="privately-companies">
+                  <table class="sortable">
+                    <tr>
+                      <th class="rank"># Rank</th>
+                      <th class="companyname">Company Name</th>
+                      <th class="sector">Sector</th>
+                      <th class="funding sorttable_numeric">
+                        Total Raised ($M)
+                      </th>
+                      <th class="description">Description</th>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">01</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://articulate.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/articulate.jpg"
+                              alt="Articulate"
+                            />
+                          </div>
+                          <p>Articulate</p>
+                        </div>
+                      </td>
+                      <td class="sector">HR / Future of Work</td>
+                      <td class="funding" sorttable_customkey="1500">
+                        <span>$</span>1.5<span class="million">B</span>
+                      </td>
+
+                      <td class="description">
+                        E-learning and digital training software
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">02</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -546,7 +618,7 @@
                     </tr>
 
                     <tr class="item">
-                      <td class="rank">10</td>
+                      <td class="rank">03</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -571,8 +643,9 @@
                         Real-time event and risk detection
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">11</td>
+                      <td class="rank">04</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -591,14 +664,227 @@
                       </td>
                       <td class="sector">Sales / Marketing</td>
                       <td class="funding">
-                        <span>$</span>866<span class="million">M</span>
+                        <span>$</span>922<span class="million">M</span>
                       </td>
                       <td class="description">
                         Personalized mobile messaging platform
                       </td>
                     </tr>
+
+                    <tr class="item">
+                      <td class="rank">05</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.socure.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/socure.jpg"
+                              alt="Socure"
+                            />
+                          </div>
+                          <p>Socure</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="funding">
+                        <span>$</span>649<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Digital identity verification and fraud detection
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">06</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.dataiku.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/dataiku.jpg"
+                              alt="Dataiku"
+                            />
+                          </div>
+                          <p>Dataiku</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>648<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        All-in-one data science and machine learning platform
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">07</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.collibra.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/collibra.jpg"
+                              alt="Collibra"
+                            />
+                          </div>
+                          <p>Collibra</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>640<span class="million">M</span>
+                      </td>
+                      <td class="description">Data governance platform</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">08</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.claroty.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/claroty.jpg"
+                              alt="Claroty"
+                            />
+                          </div>
+                          <p>Claroty</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="funding">
+                        <span>$</span>640<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Industrial cybersecurity solution
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">09</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.cockroachlabs.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/cockroach-labs.jpg"
+                              alt="Cockroach Labs"
+                            />
+                          </div>
+                          <p>Cockroach Labs</p>
+                        </div>
+                      </td>
+                      <td class="sector">Cloud Native / Dev Tools</td>
+                      <td class="funding">
+                        <span>$</span>633<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Cloud-native, distributed SQL database
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">10</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.dailypay.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/dailypay.jpg"
+                              alt="DailyPay"
+                            />
+                          </div>
+                          <p>DailyPay</p>
+                        </div>
+                      </td>
+                      <td class="sector">HR / Future of Work</td>
+                      <td class="funding">
+                        <span>$</span>601<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Employee payroll and payday lending provider
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">11</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.yipitdata.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/yipitdata.jpg"
+                              alt="YipitData"
+                            />
+                          </div>
+                          <p>YipitData</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>588<span class="million">M</span>
+                      </td>
+                      <td class="description">Market research platform</td>
+                    </tr>
+
                     <tr class="item">
                       <td class="rank">12</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://verbit.ai/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/verbit.jpg"
+                              alt="Verbit"
+                            />
+                          </div>
+                          <p>Verbit</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>532<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        AI-based transcription and captioning
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">13</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -624,7 +910,61 @@
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">13</td>
+                      <td class="rank">14</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.ownbackup.com"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/ownbackup.jpg"
+                              alt="OwnBackup"
+                            />
+                          </div>
+                          <p>OwnBackup</p>
+                        </div>
+                      </td>
+                      <td class="sector">Cloud Native / Dev Tools</td>
+                      <td class="funding">
+                        <span>$</span>507<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Cloud data backup and protection
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">15</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://papayaglobal.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/papaya-global.jpg"
+                              alt="Papaya Global"
+                            />
+                          </div>
+                          <p>Papaya Global</p>
+                        </div>
+                      </td>
+                      <td class="sector">HR / Future of Work</td>
+                      <td class="funding">
+                        <span>$</span>441<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Workforce and payroll management
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">16</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -649,32 +989,36 @@
                         No-code platform to build and deploy custom applications
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">14</td>
+                      <td class="rank">17</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.collibra.com/"
+                            href="https://www.andela.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/collibra.jpg"
-                              alt="Collibra"
+                              src="images/companies/andela.jpg"
+                              alt="Andela"
                             />
                           </div>
-                          <p>Collibra</p>
+                          <p>Andela</p>
                         </div>
                       </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="sector">HR / Future of Work</td>
                       <td class="funding">
-                        <span>$</span>390<span class="million">M</span>
+                        <span>$</span>378<span class="million">M</span>
                       </td>
-                      <td class="description">Data governance platform</td>
+                      <td class="description">
+                        Remote engineering talent management
+                      </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">15</td>
+                      <td class="rank">18</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -696,34 +1040,9 @@
                         AI-powered customer service software
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">16</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.cockroachlabs.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/cockroach-labs.jpg"
-                              alt="Cockroach Labs"
-                            />
-                          </div>
-                          <p>Cockroach Labs</p>
-                        </div>
-                      </td>
-                      <td class="sector">Cloud Native / Dev Tools</td>
-                      <td class="funding">
-                        <span>$</span>355<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Cloud-native, distributed SQL database
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">17</td>
+                      <td class="rank">19</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -750,7 +1069,7 @@
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">18</td>
+                      <td class="rank">20</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -776,7 +1095,192 @@
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">19</td>
+                      <td class="rank">21</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.bluevoyant.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/bluevoyant.jpg"
+                              alt="BlueVoyant"
+                            />
+                          </div>
+                          <p>BlueVoyant</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="funding">
+                        <span>$</span>336<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Analytics-driven cybersecurity management
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">22</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.grafana.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/grafana-labs.jpg"
+                              alt="Grafana Labs"
+                            />
+                          </div>
+                          <p>Grafana Labs</p>
+                        </div>
+                      </td>
+                      <td class="sector">Cloud Native / Dev Tools</td>
+                      <td class="funding">
+                        <span>$</span>329<span class="million">M</span>
+                      </td>
+                      <td class="description">Open observability platform</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">23</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.alpha-sense.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/alphasense.jpg"
+                              alt="AlphaSense"
+                            />
+                          </div>
+                          <p>AlphaSense</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>315<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Market intelligence search engine
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">24</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.hyperscience.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/hyperscience.jpg"
+                              alt="HyperScience"
+                            />
+                          </div>
+                          <p>HyperScience</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>299<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        AI-powered process automation tool
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">25</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.springhealth.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/springhealth.jpg"
+                              alt="Spring Health"
+                            />
+                          </div>
+                          <p>Spring Health</p>
+                        </div>
+                      </td>
+                      <td class="sector">HR / Future of Work</td>
+                      <td class="funding">
+                        <span>$</span>297<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Employee mental well-being platform
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">26</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.mparticle.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/mparticle.jpg"
+                              alt="mParticle"
+                            />
+                          </div>
+                          <p>mParticle</p>
+                        </div>
+                      </td>
+                      <td class="sector">Sales / Marketing</td>
+                      <td class="funding">
+                        <span>$</span>297<span class="million">M</span>
+                      </td>
+                      <td class="description">Customer data platform</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">27</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.augury.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/augury.jpg"
+                              alt="Augury"
+                            />
+                          </div>
+                          <p>Augury</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>294<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        End-to-end predictive maintenance solution
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">28</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -802,7 +1306,7 @@
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">20</td>
+                      <td class="rank">29</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -827,34 +1331,36 @@
                         Business intelligence software
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">21</td>
+                      <td class="rank">30</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.bluevoyant.com/"
+                            href="https://www.deepinstinct.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/bluevoyant.jpg"
-                              alt="BlueVoyant"
+                              src="images/companies/deep-instinct.jpg"
+                              alt="Deep Instinct"
                             />
                           </div>
-                          <p>BlueVoyant</p>
+                          <p>Deep Instinct</p>
                         </div>
                       </td>
                       <td class="sector">Risk / Security</td>
                       <td class="funding">
-                        <span>$</span>276<span class="million">M</span>
+                        <span>$</span>273<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Analytics-driven cybersecurity management
+                        Deep learning applied to cybersecurity
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">22</td>
+                      <td class="rank">31</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -878,84 +1384,61 @@
 
                       <td class="description">Universal data storage</td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">23</td>
+                      <td class="rank">32</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.dataiku.com/"
+                            href="https://www.lusha.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img src="images/companies/lusha.jpg" alt="Lusha" />
+                          </div>
+                          <p>Lusha</p>
+                        </div>
+                      </td>
+                      <td class="sector">Sales / Marketing</td>
+                      <td class="funding">
+                        <span>$</span>245<span class="million">M</span>
+                      </td>
+
+                      <td class="description">
+                        B2B sales prospecting platform
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">33</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.bluecore.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/dataiku.jpg"
-                              alt="Dataiku"
+                              src="images/companies/bluecore.jpg"
+                              alt="Bluecore"
                             />
                           </div>
-                          <p>Dataiku</p>
+                          <p>Bluecore</p>
                         </div>
                       </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="sector">Sales / Marketing</td>
                       <td class="funding">
-                        <span>$</span>248<span class="million">M</span>
+                        <span>$</span>238<span class="million">M</span>
                       </td>
                       <td class="description">
-                        All-in-one data science and machine learning platform
+                        AI-enabled marketing personalization software
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">24</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.bigid.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img src="images/companies/bigid.jpg" alt="BigID" />
-                          </div>
-                          <p>BigID</p>
-                        </div>
-                      </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding">
-                        <span>$</span>246<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Data intelligence platform solving for data privacy,
-                        discovery, and governance
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">25</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.claroty.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/claroty.jpg"
-                              alt="Claroty"
-                            />
-                          </div>
-                          <p>Claroty</p>
-                        </div>
-                      </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding">
-                        <span>$</span>240<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Industrial cybersecurity solution
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">26</td>
+                      <td class="rank">34</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -977,8 +1460,115 @@
                         Customer identity and digital authentication
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">27</td>
+                      <td class="rank">35</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.mark43.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/mark43.jpg"
+                              alt="Mark43"
+                            />
+                          </div>
+                          <p>Mark43</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="funding">
+                        <span>$</span>229<span class="million">M</span>
+                      </td>
+                      <td class="description">Public safety software</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">36</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.aircall.io/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/aircall.jpg"
+                              alt="Aircall"
+                            />
+                          </div>
+                          <p>Aircall</p>
+                        </div>
+                      </td>
+                      <td class="sector">Collaboration / Productivity</td>
+                      <td class="funding">
+                        <span>$</span>225<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Cloud-based contact center software
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">37</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.behavox.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/behavox.jpg"
+                              alt="Behavox"
+                            />
+                          </div>
+                          <p>Behavox</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="funding">
+                        <span>$</span>225<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Behavioral risk and compliance management
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">38</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.smartling.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/smartling.jpg"
+                              alt="Smartling"
+                            />
+                          </div>
+                          <p>Smartling</p>
+                        </div>
+                      </td>
+                      <td class="sector">Collaboration / Productivity</td>
+                      <td class="funding">
+                        <span>$</span>223<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Language translation and content localization
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">39</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1003,110 +1593,88 @@
                         Payroll, benefits, and talent management platform
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">28</td>
+                      <td class="rank">40</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.kaltura.com/"
+                            href="https://www.corcentric.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/kaltura.jpg"
-                              alt="Kaltura"
+                              src="images/companies/corcentric.jpg"
+                              alt="Corcentric"
                             />
                           </div>
-                          <p>Kaltura</p>
+                          <p>Corcentric</p>
                         </div>
                       </td>
-                      <td class="sector">Collaboration / Productivity</td>
-                      <td class="funding">
-                        <span>$</span>206<span class="million">M</span>
-                      </td>
-                      <td class="description">Cloud video platform</td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">29</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.hyperscience.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/hyperscience.jpg"
-                              alt="HyperScience"
-                            />
-                          </div>
-                          <p>HyperScience</p>
-                        </div>
-                      </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="sector">HR / Future of Work</td>
                       <td class="funding">
                         <span>$</span>199<span class="million">M</span>
                       </td>
                       <td class="description">
-                        AI-powered process automation tool
+                        Business spend and revenue management
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">30</td>
+                      <td class="rank">41</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.socure.com/"
+                            href="https://www.aquant.io/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/socure.jpg"
-                              alt="Socure"
+                              src="images/companies/aquant.jpg"
+                              alt="Aquant"
                             />
                           </div>
-                          <p>Socure</p>
+                          <p>Aquant</p>
                         </div>
                       </td>
-                      <td class="sector">Risk / Security</td>
+                      <td class="sector">HR / Future of Work</td>
                       <td class="funding">
                         <span>$</span>199<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Digital identity verification and fraud detection
+                        Service intelligence and workforce knowledge management
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">31</td>
+                      <td class="rank">42</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.deepinstinct.com/"
+                            href="https://www.bigid.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
-                            <img
-                              src="images/companies/deep-instinct.jpg"
-                              alt="Deep Instinct"
-                            />
+                            <img src="images/companies/bigid.jpg" alt="BigID" />
                           </div>
-                          <p>Deep Instinct</p>
+                          <p>BigID</p>
                         </div>
                       </td>
                       <td class="sector">Risk / Security</td>
                       <td class="funding">
-                        <span>$</span>198<span class="million">M</span>
+                        <span>$</span>196<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Deep learning applied to cybersecurity
+                        Data intelligence platform solving for data privacy,
+                        discovery, and governance
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">32</td>
+                      <td class="rank">43</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1131,8 +1699,34 @@
                         Cybersecurity asset management platform
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">33</td>
+                      <td class="rank">44</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.jwplayer.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/jwplayer.jpg"
+                              alt="JW Player"
+                            />
+                          </div>
+                          <p>JW Player</p>
+                        </div>
+                      </td>
+                      <td class="sector">Sales / Marketing</td>
+                      <td class="funding">
+                        <span>$</span>192<span class="million">M</span>
+                      </td>
+                      <td class="description">Video player software</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">45</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1156,7 +1750,7 @@
                       <td class="description">Event management software</td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">34</td>
+                      <td class="rank">46</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1178,8 +1772,34 @@
                         Enterprise leasing and asset management platform
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">35</td>
+                      <td class="rank">47</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.electric.ai/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/electric.jpg"
+                              alt="Electric"
+                            />
+                          </div>
+                          <p>Electric</p>
+                        </div>
+                      </td>
+                      <td class="sector">Collaboration / Productivity</td>
+                      <td class="funding">
+                        <span>$</span>189<span class="million">M</span>
+                      </td>
+                      <td class="description">Remote IT and security</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">48</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1204,109 +1824,58 @@
                         SaaS and IT operations management
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">36</td>
+                      <td class="rank">49</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.andela.com/"
+                            href="https://www.bubble.io/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/andela.jpg"
-                              alt="Andela"
+                              src="images/companies/bubble.jpg"
+                              alt="Bubble"
                             />
                           </div>
-                          <p>Andela</p>
+                          <p>Bubble</p>
                         </div>
                       </td>
-                      <td class="sector">HR / Future of Work</td>
-                      <td class="funding">
-                        <span>$</span>182<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Remote engineering talent management
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">37</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.braze.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img src="images/companies/braze.jpg" alt="Braze" />
-                          </div>
-                          <p>Braze</p>
-                        </div>
-                      </td>
-                      <td class="sector">Sales / Marketing</td>
+                      <td class="sector">Collaboration / Productivity</td>
                       <td class="funding">
                         <span>$</span>177<span class="million">M</span>
                       </td>
-                      <td class="description">
-                        Cloud-based customer engagement software
-                      </td>
+                      <td class="description">No-code web app builder</td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">38</td>
+                      <td class="rank">50</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.behavox.com/"
+                            href="https://www.alloy.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
-                            <img
-                              src="images/companies/behavox.jpg"
-                              alt="Behavox"
-                            />
+                            <img src="images/companies/alloy.jpg" alt="Alloy" />
                           </div>
-                          <p>Behavox</p>
+                          <p>Alloy</p>
                         </div>
                       </td>
                       <td class="sector">Risk / Security</td>
                       <td class="funding">
-                        <span>$</span>175<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Behavioral risk and compliance management
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">39</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.reonomy.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/reonomy.jpg"
-                              alt="Reonomy"
-                            />
-                          </div>
-                          <p>Reonomy</p>
-                        </div>
-                      </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding">
                         <span>$</span>158<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Data platform for commercial real estate industry
+                        Identity verification platform
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">40</td>
+                      <td class="rank">51</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1331,8 +1900,9 @@
                         Data and intelligence on every small business
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">41</td>
+                      <td class="rank">52</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1358,7 +1928,7 @@
                       </td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">42</td>
+                      <td class="rank">53</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1383,32 +1953,9 @@
                         Payroll, benefits, and HR management platform
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">43</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.mparticle.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/mparticle.jpg"
-                              alt="mParticle"
-                            />
-                          </div>
-                          <p>mParticle</p>
-                        </div>
-                      </td>
-                      <td class="sector">Sales / Marketing</td>
-                      <td class="funding">
-                        <span>$</span>147<span class="million">M</span>
-                      </td>
-                      <td class="description">Customer data platform</td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">44</td>
+                      <td class="rank">54</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1431,8 +1978,9 @@
                       </td>
                       <td class="description">Online learning platform</td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">45</td>
+                      <td class="rank">55</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1455,8 +2003,9 @@
                       </td>
                       <td class="description">Customer data platform</td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">46</td>
+                      <td class="rank">56</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1480,33 +2029,34 @@
                       <td class="description">Compliance software</td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">47</td>
+                      <td class="rank">57</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.alpha-sense.com/"
+                            href="https://www.ntopology.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/alphasense.jpg"
-                              alt="AlphaSense"
+                              src="images/companies/ntopology.jpg"
+                              alt="nTopology"
                             />
                           </div>
-                          <p>AlphaSense</p>
+                          <p>nTopology</p>
                         </div>
                       </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="sector">Collaboration / Productivity</td>
                       <td class="funding">
-                        <span>$</span>135<span class="million">M</span>
+                        <span>$</span>136<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Market intelligence search engine
+                        Engineering design tools for advanced manufacturing
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">48</td>
+                      <td class="rank">58</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1527,7 +2077,60 @@
                       <td class="description">Content creation platform</td>
                     </tr>
                     <tr class="item">
-                      <td class="rank">49</td>
+                      <td class="rank">59</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.wrapbook.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/wrapbook.jpg"
+                              alt="Wrapbook"
+                            />
+                          </div>
+                          <p>Wrapbook</p>
+                        </div>
+                      </td>
+                      <td class="sector">HR / Future of Work</td>
+                      <td class="funding">
+                        <span>$</span>131<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Entertainment and film production payroll provider
+                      </td>
+                    </tr>
+                    <tr class="item">
+                      <td class="rank">60</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.ocrolus.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/ocrolus.jpg"
+                              alt="Ocrolus"
+                            />
+                          </div>
+                          <p>Ocrolus</p>
+                        </div>
+                      </td>
+                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="funding">
+                        <span>$</span>130<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Intelligent document processing
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">61</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1549,48 +2152,23 @@
                         Smart DNS and website traffic management tool
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">50</td>
+                      <td class="rank">62</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.augury.com/"
+                            href="https://www.persado.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/augury.jpg"
-                              alt="Augury"
+                              src="images/companies/persado.jpg"
+                              alt="Persado"
                             />
                           </div>
-                          <p>Augury</p>
-                        </div>
-                      </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding">
-                        <span>$</span>114<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        End-to-end predictive maintenance solution
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">51</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.bluecore.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/bluecore.jpg"
-                              alt="Bluecore"
-                            />
-                          </div>
-                          <p>Bluecore</p>
+                          <p>Persado</p>
                         </div>
                       </td>
                       <td class="sector">Sales / Marketing</td>
@@ -1598,11 +2176,12 @@
                         <span>$</span>113<span class="million">M</span>
                       </td>
                       <td class="description">
-                        AI-enabled marketing personalization software
+                        AI-generated language platform
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">52</td>
+                      <td class="rank">63</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1627,8 +2206,36 @@
                         Cloud-based CRM for local businesses
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">53</td>
+                      <td class="rank">64</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="www.panorays.com"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/panorays.jpg"
+                              alt="Panorays"
+                            />
+                          </div>
+                          <p>Panorays</p>
+                        </div>
+                      </td>
+                      <td class="sector">Risk / Security</td>
+                      <td class="funding">
+                        <span>$</span>109<span class="million">M</span>
+                      </td>
+                      <td class="description">
+                        Automated third-party security management
+                      </td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">65</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1653,8 +2260,9 @@
                         Marketing orchestration software
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">54</td>
+                      <td class="rank">66</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1676,60 +2284,61 @@
                         Digital customer service software
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">55</td>
+                      <td class="rank">67</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.springhealth.com/"
+                            href="https://www.urbint.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/springhealth.jpg"
-                              alt="Spring Health"
+                              src="images/companies/urbint.jpg"
+                              alt="Urbint"
                             />
                           </div>
-                          <p>Spring Health</p>
+                          <p>Urbint</p>
                         </div>
                       </td>
-                      <td class="sector">HR / Future of Work</td>
-                      <td class="funding">
-                        <span>$</span>106<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Employee mental well-being platform
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">56</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.aircall.io/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/aircall.jpg"
-                              alt="Aircall"
-                            />
-                          </div>
-                          <p>Aircall</p>
-                        </div>
-                      </td>
-                      <td class="sector">Collaboration / Productivity</td>
+                      <td class="sector">Risk / Security</td>
                       <td class="funding">
                         <span>$</span>105<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Cloud-based contact center software
+                        Industrial incident prevention solutions
                       </td>
                     </tr>
+
                     <tr class="item">
-                      <td class="rank">57</td>
+                      <td class="rank">68</td>
+                      <td class="companyname">
+                        <div class="company">
+                          <a
+                            href="https://www.snappy.com/"
+                            class="company-link"
+                            target="_blank"
+                          ></a>
+                          <div class="logo">
+                            <img
+                              src="images/companies/snappygifts.jpg"
+                              alt="Snappy Gifts"
+                            />
+                          </div>
+                          <p>Snappy Gifts</p>
+                        </div>
+                      </td>
+                      <td class="sector">Sales / Marketing</td>
+                      <td class="funding">
+                        <span>$</span>105<span class="million">M</span>
+                      </td>
+                      <td class="description">Corporate gifting service</td>
+                    </tr>
+
+                    <tr class="item">
+                      <td class="rank">69</td>
                       <td class="companyname">
                         <div class="company">
                           <a
@@ -1754,458 +2363,166 @@
                         Passwordless identity platform
                       </td>
                     </tr>
-                    <tr class="item">
-                      <td class="rank">58</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.electric.ai/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/electric.jpg"
-                              alt="Electric"
-                            />
-                          </div>
-                          <p>Electric</p>
-                        </div>
-                      </td>
-                      <td class="sector">Collaboration / Productivity</td>
-                      <td class="funding">
-                        <span>$</span>98<span class="million">M</span>
-                      </td>
-                      <td class="description">Remote IT and security</td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">59</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.persado.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/persado.jpg"
-                              alt="Persado"
-                            />
-                          </div>
-                          <p>Persado</p>
-                        </div>
-                      </td>
-                      <td class="sector">Sales / Marketing</td>
-                      <td class="funding">
-                        <span>$</span>96<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        AI-generated language platform
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">60</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.frame.io/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/frame-io.jpg"
-                              alt="Frame.io"
-                            />
-                          </div>
-                          <p>Frame.io</p>
-                        </div>
-                      </td>
-                      <td class="sector">Collaboration / Productivity</td>
-                      <td class="funding">
-                        <span>$</span>92<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Cloud-based video collaboration platform
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">61</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.execonline.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/execonline.jpg"
-                              alt="ExecOnline"
-                            />
-                          </div>
-                          <p>ExecOnline</p>
-                        </div>
-                      </td>
-                      <td class="sector">HR / Future of Work</td>
-                      <td class="funding">
-                        <span>$</span>87<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Online leadership development for enterprises
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">62</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.codecademy.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/codecademy.jpg"
-                              alt="Codecademy"
-                            />
-                          </div>
-                          <p>Codecademy</p>
-                        </div>
-                      </td>
-                      <td class="sector">HR / Future of Work</td>
-                      <td class="funding">
-                        <span>$</span>83<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Online platform to learn to code
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">63</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.exiger.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/exiger.jpg"
-                              alt="Exiger"
-                            />
-                          </div>
-                          <p>Exiger</p>
-                        </div>
-                      </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding">
-                        <span>$</span>80<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Governance, risk, compliance, and diligence solutions
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">64</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.cynet.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img src="images/companies/cynet.jpg" alt="Cynet" />
-                          </div>
-                          <p>Cynet</p>
-                        </div>
-                      </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding">
-                        <span>$</span>79<span class="million">M</span>
-                      </td>
-                      <td class="description">Autonomous breach protection</td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">65</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.dashlane.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/dashlane.jpg"
-                              alt="Dashlane"
-                            />
-                          </div>
-                          <p>Dashlane</p>
-                        </div>
-                      </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding">
-                        <span>$</span>78<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Cross-platform password manager
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">66</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.bubble.io/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/bubble.jpg"
-                              alt="Bubble"
-                            />
-                          </div>
-                          <p>Bubble</p>
-                        </div>
-                      </td>
-                      <td class="sector">Collaboration / Productivity</td>
-                      <td class="funding">
-                        <span>$</span>77<span class="million">M</span>
-                      </td>
-                      <td class="description">No-code web app builder</td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">67</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.flashpoint-intel.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/flashpoint.jpg"
-                              alt="Flashpoint"
-                            />
-                          </div>
-                          <p>Flashpoint</p>
-                        </div>
-                      </td>
-                      <td class="sector">Risk / Security</td>
-                      <td class="funding">
-                        <span>$</span>77<span class="million">M</span>
-                      </td>
-                      <td class="description">Business risk intelligence</td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">68</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.cruxinformatics.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/crux-informatics.jpg"
-                              alt="Crux Informatics"
-                            />
-                          </div>
-                          <p>Crux Informatics</p>
-                        </div>
-                      </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding">
-                        <span>$</span>77<span class="million">M</span>
-                      </td>
-                      <td class="description">
-                        Data delivery and operations platform
-                      </td>
-                    </tr>
-                    <tr class="item">
-                      <td class="rank">69</td>
-                      <td class="companyname">
-                        <div class="company">
-                          <a
-                            href="https://www.sqream.com/"
-                            class="company-link"
-                            target="_blank"
-                          ></a>
-                          <div class="logo">
-                            <img
-                              src="images/companies/sqream.jpg"
-                              alt="SQream"
-                            />
-                          </div>
-                          <p>SQream</p>
-                        </div>
-                      </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
-                      <td class="funding">
-                        <span>$</span>77<span class="million">M</span>
-                      </td>
-                      <td class="description">Data analytics acceleration</td>
-                    </tr>
+
                     <tr class="item">
                       <td class="rank">70</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.inturn.com/"
+                            href="https://www.pebblepost.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/inturn.jpg"
-                              alt="Inturn"
+                              src="images/companies/pebblepost.jpg"
+                              alt="PebblePost"
                             />
                           </div>
-                          <p>Inturn</p>
+                          <p>PebblePost</p>
                         </div>
                       </td>
-                      <td class="sector">Data / AI / Machine Learning</td>
+                      <td class="sector">Sales / Marketing</td>
                       <td class="funding">
-                        <span>$</span>76<span class="million">M</span>
+                        <span>$</span>104<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Excess inventory optimization software
+                        Direct to mail marketing platform
                       </td>
                     </tr>
+
                     <tr class="item">
                       <td class="rank">71</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.grafana.com/"
+                            href="https://www.suzy.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
-                            <img
-                              src="images/companies/grafana-labs.jpg"
-                              alt="Grafana Labs"
-                            />
+                            <img src="images/companies/suzy.jpg" alt="Suzy" />
                           </div>
-                          <p>Grafana Labs</p>
+                          <p>Suzy</p>
                         </div>
                       </td>
-                      <td class="sector">Cloud Native / Dev Tools</td>
+                      <td class="sector">Sales / Marketing</td>
                       <td class="funding">
-                        <span>$</span>75<span class="million">M</span>
+                        <span>$</span>104<span class="million">M</span>
                       </td>
-                      <td class="description">Open observability platform</td>
+                      <td class="description">Market research platform</td>
                     </tr>
+
                     <tr class="item">
                       <td class="rank">72</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.cherre.com/"
+                            href="https://www.clarifai.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/cherre.jpg"
-                              alt="Cherre"
+                              src="images/companies/clarifai.jpg"
+                              alt="Clarifai"
                             />
                           </div>
-                          <p>Cherre</p>
+                          <p>Clarifai</p>
                         </div>
                       </td>
                       <td class="sector">Data / AI / Machine Learning</td>
                       <td class="funding">
-                        <span>$</span>75<span class="million">M</span>
+                        <span>$</span>101<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Real estate data and analytics platform
+                        Deep learning-based computer vision platform
                       </td>
                     </tr>
+
                     <tr class="item">
                       <td class="rank">73</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.intsights.com/"
+                            href="https://www.signal-ai.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/intsights.jpg"
-                              alt="IntSights"
+                              src="images/companies/signal.jpg"
+                              alt="Signal AI"
                             />
                           </div>
-                          <p>IntSights</p>
+                          <p>Signal AI</p>
                         </div>
                       </td>
-                      <td class="sector">Risk / Security</td>
+                      <td class="sector">Data / AI / Machine Learning</td>
                       <td class="funding">
-                        <span>$</span>71<span class="million">M</span>
+                        <span>$</span>101<span class="million">M</span>
                       </td>
-                      <td class="description">Cyber threat intelligence</td>
+                      <td class="description">
+                        Media intelligence and reputation management
+                      </td>
                     </tr>
+
                     <tr class="item">
                       <td class="rank">74</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.timescale.com/"
+                            href="https://materialize.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/timescale.jpg"
-                              alt="Timescale"
+                              src="images/companies/materialize.jpg"
+                              alt="Materialize"
                             />
                           </div>
-                          <p>Timescale</p>
+                          <p>Materialize</p>
                         </div>
                       </td>
-                      <td class="sector">Cloud Native / Dev Tools</td>
+                      <td class="sector">Data / AI / Machine Learning</td>
                       <td class="funding">
-                        <span>$</span>71<span class="million">M</span>
+                        <span>$</span>101<span class="million">M</span>
                       </td>
-                      <td class="description">Time-series SQL database</td>
+                      <td class="description">
+                        Streaming database for real-time analytics
+                      </td>
                     </tr>
+
                     <tr class="item">
                       <td class="rank">75</td>
                       <td class="companyname">
                         <div class="company">
                           <a
-                            href="https://www.ntopology.com/"
+                            href="https://www.voyager-labs.com/"
                             class="company-link"
                             target="_blank"
                           ></a>
                           <div class="logo">
                             <img
-                              src="images/companies/ntopology.jpg"
-                              alt="nTopology"
+                              src="images/companies/voyager.jpg"
+                              alt="Voyager Labs"
                             />
                           </div>
-                          <p>nTopology</p>
+                          <p>Voyager Labs</p>
                         </div>
                       </td>
-                      <td class="sector">Collaboration / Productivity</td>
+                      <td class="sector">Risk / Security</td>
                       <td class="funding">
-                        <span>$</span>71<span class="million">M</span>
+                        <span>$</span>100<span class="million">M</span>
                       </td>
                       <td class="description">
-                        Engineering design tools for advanced manufacturing
+                        AI-based investigation solutions
                       </td>
                     </tr>
                   </table>
-                  ​
                 </div>
+
                 <p class="note">
                   <a
                     href="https://medium.com/work-bench/funding-reports/home"
@@ -2227,7 +2544,7 @@
         <div class="prefooter">
           <div class="container">
             <div class="row">
-              <div class="col-12 col-md-4 col-lg-3">
+              <div class="col-12 col-md-4 col-lg-4">
                 <a class="logo-link" href="https://www.work-bench.com">
                   <img
                     class="main-logo"
@@ -2238,17 +2555,11 @@
                   />
                 </a>
               </div>
-              <div class="col-12 col-md-8 col-lg-9">
+              <div class="col-12 col-md-8 col-lg-8">
                 <h5>
-                  <a href="https://www.work-bench.com"
-                    >Work-Bench is a venture capital firm based in NYC</a
-                  >, leading $3M - $6M rounds in enterprise technology startups
-                  and supporting their go-to-market. If you're looking to join a
-                  great enterprise company or are a founder of an early stage
-                  enterprise startup, please
-                  <a href="mailto:hello@work-bench.com" class="reach-out"
-                    >reach out.</a
-                  >
+                  Work-Bench is a venture capital firm based in NYC, investing
+                  in enterprise technology startups in $3M - $6M rounds, and
+                  supporting their go-to-market.
                 </h5>
               </div>
             </div>
@@ -2256,12 +2567,12 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-4 col-lg-3 copyright-column">
+            <div class="col-12 col-md-4 col-lg-4 copyright-column">
               <p class="copyright">
-                Copyright © 2021 Work-Bench. All rights reserved
+                Copyright © 2022 Work-Bench. All rights reserved
               </p>
             </div>
-            <div class="col-12 col-md-8 col-lg-9">
+            <div class="col-12 col-md-8 col-lg-8">
               <div class="row">
                 <div class="col-sm-6 col-md-3">
                   <h6 class="footer-title">Contact Us</h6>
