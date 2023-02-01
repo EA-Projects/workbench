@@ -251,6 +251,7 @@ a {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   .graphic-col {
     width: 65%;
@@ -409,6 +410,9 @@ a {
     @media (max-width: 424px) {
       font-size: 10px;
     }
+    &.public-companies{
+      margin-bottom: 80px;
+    }
   }
 }
 
@@ -420,7 +424,7 @@ a {
   overflow: scroll;
   &.public-companies {
     height: 400px;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
     thead {
       background-color: #f9f8f8;
     }
