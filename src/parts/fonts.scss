@@ -13,6 +13,19 @@
 
 @font-face {
 	font-family: 'Font';
+	/*src: url('../dist/fonts/DMSans-SemiBold.eot');*/
+	src: /*url('../dist/fonts/DMSans-SemiBold.eot?#iefix') format('embedded-opentype'),*/ url('../dist/fonts/DMSans-SemiBold.woff2')
+			format('woff2'),
+		url('../dist/fonts/DMSans-SemiBold.woff') format('woff'),
+		url('../dist/fonts/DMSans-SemiBold.ttf') format('truetype')
+			/*,
+		url('../dist/fonts/DMSans-SemiBold.svg#Font-XBold') format('svg')*/;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Font';
 	/*src: url('../dist/fonts/DMSans-Regular.eot');*/
 	src: /*url('../dist/fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),*/ url('../dist/fonts/DMSans-Regular.woff2')
 			format('woff2'),
@@ -52,6 +65,7 @@ h6 {
 
 h1 {
 	font-size: 76px;
+	font-weight: 500;
 	letter-spacing: -0.02em;
 	@media (max-width: 991px) {
 		font-size: 61px;
@@ -72,6 +86,8 @@ h1 {
 h2 {
 	font-size: 37px;
 	margin-bottom: 25px;
+	font-weight: 600;
+	letter-spacing: -.01em;
 	@media (max-width: 991px) {
 		font-size: 31px;
 	}
